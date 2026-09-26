@@ -1,0 +1,17 @@
+{
+  "name": "@vokox/cli",
+  "version": "0.1.0",
+  "description": "vokox CLI: generate images, video, GIFs, music and voice from any coding agent, paid with credits",
+  "type": "module",
+  "license": "MIT",
+  "bin": { "vokox": "./dist/index.js" },
+  "files": ["dist"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && chmod +x dist/index.js"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "picocolors": "^1.1.1"
+  }
+}

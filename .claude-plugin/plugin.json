@@ -1,0 +1,9 @@
+{
+  "name": "vokox",
+  "version": "0.1.0",
+  "description": "Generate images, video, GIFs, music and voice from Claude Code and assemble finished videos; cloud execution, credits.",
+  "author": { "name": "vokox" },
+  "homepage": "https://vokox.ai",
+  "keywords": ["video", "image", "gif", "music", "tts", "generation", "ai-video"],
+  "skills": ["./skills/vokox"]
+}
