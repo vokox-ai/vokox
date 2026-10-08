@@ -1,0 +1,49 @@
+{
+  "name": "@vokox/cli",
+  "version": "0.1.0",
+  "description": "VokoX CLI: generate images, video clips, GIFs, voice-overs and music from Claude Code, Codex, Cursor or any coding agent, paid with credits (vokox.ai)",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "vokox": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && chmod +x dist/index.js"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "picocolors": "^1.1.1"
+  },
+  "keywords": [
+    "vokox",
+    "mcp",
+    "claude-code",
+    "codex",
+    "cursor",
+    "ai-video",
+    "ai-image",
+    "text-to-video",
+    "image-generation",
+    "video-generation",
+    "tts",
+    "cli",
+    "agent",
+    "skill"
+  ],
+  "homepage": "https://vokox.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vokox-ai/vokox.git",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/vokox-ai/vokox/issues",
+    "email": "support@vokox.ai"
+  }
+}
