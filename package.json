@@ -1,0 +1,11 @@
+{
+  "name": "vokox",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "npm run build -w @vokox/catalog && npm run build -w @vokox/cli -w @vokox/mock-api",
+    "test": "npm run build && node --test packages/cli/test/*.test.mjs",
+    "mock": "node packages/mock-api/dist/server.js"
+  },
+  "devDependencies": { "@types/node": "^24.0.0", "typescript": "^5.6.0" }
+}

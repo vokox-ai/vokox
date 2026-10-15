@@ -1,0 +1,14 @@
+{
+  "name": "vokox",
+  "owner": { "name": "vokox" },
+  "metadata": { "description": "vokox plugin marketplace", "version": "0.1.0" },
+  "plugins": [
+    {
+      "name": "vokox",
+      "source": "./",
+      "description": "Images, video, GIFs, music and voice for coding agents. Cloud execution, credits, one plan.json per deliverable.",
+      "version": "0.1.0",
+      "category": "media"
+    }
+  ]
+}
